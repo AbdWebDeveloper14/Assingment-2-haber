@@ -9,9 +9,9 @@
     background-color: rgb(61, 61, 61);
 }
 .logo{
-    height: 80px;
+    height: 100px;
     color: aliceblue;
-    width: 120px;
+    width: 200px;
     background-color: orangered;
 }
 li a {
@@ -26,19 +26,29 @@ li a:hover{
 .main1{
     height: 800px;
     width: 100%;
-    background-image: url(img/bg\ 1.jpg);
+    background-image:
+     url(img/bg\ 1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    background-blend-mode: darken;
+}
+.main1:hover{
+
 }
 .lastdiv{
-    height: 70px;
+    height: 100px;
     width: 400px;
     background-color: orangered;
     color: white;
     margin-top: 800px;
     font-weight: 700;
+    border-bottom-left-radius: 15px;
+}
+.lastdiv:hover{
+    box-shadow: 0px 0px 15px white;
+    cursor: pointer;
 }
 .black{
 color: rgb(68, 68, 68);
@@ -78,6 +88,9 @@ color: rgb(68, 68, 68);
     border: 1px solid white;
     font-weight: 700;
 }
+.orangebutt:hover{
+    box-shadow: 0px 0px 15px white;
+}
 .graybutton{
     color: white;
     background: none;
@@ -88,7 +101,9 @@ color: rgb(68, 68, 68);
     border: 1px solid white;
     font-weight: 700;
 }
-
+.graybutton:hover{
+    box-shadow: 0px 0px 15px white;
+}
 .footer{
     height: auto;
     width: 100%;
@@ -134,5 +149,30 @@ color: rgb(68, 68, 68);
     background-color: rgb(36, 36, 36);
 }
 .white{
+    color: white;
+}
+.orangeback{
+    height: 50px;
+    width: 50px;
+    background-color: orangered;
+    text-align: center;
+    border-radius: 50%;
+}
+.orangeback:hover{
+    box-shadow: 0px 0px 15px white;
+    cursor: pointer;
+}
+
+.textbox:hover{
+box-shadow: 0px 0px 15px orangered;
+}
+.advice{
+    font-family: 'Times New Roman', Times, serif;
+}
+.ornagetext{
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ornagetext:hover{
     color: white;
 }
