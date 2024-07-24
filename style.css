@@ -1,0 +1,138 @@
+*{
+    /* border: 1px solid red; */
+     box-sizing: border-box;
+}
+.navbar {
+    background-color: rgb(61, 61, 61);
+}
+.bg-gray{
+    background-color: rgb(61, 61, 61);
+}
+.logo{
+    height: 80px;
+    color: aliceblue;
+    width: 120px;
+    background-color: orangered;
+}
+li a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+li a:hover{
+    color: white;
+}
+.main1{
+    height: 800px;
+    width: 100%;
+    background-image: url(img/bg\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.lastdiv{
+    height: 70px;
+    width: 400px;
+    background-color: orangered;
+    color: white;
+    margin-top: 800px;
+    font-weight: 700;
+}
+.black{
+color: rgb(68, 68, 68);
+
+}
+.read1{
+    color: orangered;
+    font-weight: 700;
+}
+.read{
+    color: rgb(58, 58, 58);
+    font-weight: 700;
+}
+.card1{
+    height: auto;
+    width: 400px;
+}
+.partorange{
+    height: auto;
+    width: auto;
+    background-color: orangered;
+    color: white;
+}
+.partgray{
+    height: auto;
+    width: auto;
+    background-color: rgb(61, 61, 61);
+    color: orangered;
+}
+.orangebutt{
+    color: white;
+    background: none;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    outline: none;
+    border: 1px solid white;
+    font-weight: 700;
+}
+.graybutton{
+    color: white;
+    background: none;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    outline: none;
+    border: 1px solid white;
+    font-weight: 700;
+}
+
+.footer{
+    height: auto;
+    width: 100%;
+    background-image: url(img/footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inputfooter{
+    height: 40px;
+    width: 250px;
+    background: none;
+    outline: none;
+    border: 5px solid white;
+    padding: 10px;
+}
+.textarea{
+    height: 240px;
+    width: 400px;
+    background: none;
+    outline: none;
+    border: 5px solid white;
+    padding: 10px;
+}
+.orangebutt1{
+    background-color: orangered;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-weight: 700;
+}
+.grayfooter{
+    height: auto;
+    width: 100%;
+    background-color: gray;
+    color: white;
+}
+.darkgrayfooter{
+    height: auto;
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+}
+.white{
+    color: white;
+}
